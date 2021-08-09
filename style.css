@@ -1,0 +1,323 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	overflow-x: hidden;
+}
+
+header{
+	position: relative;
+}
+
+.inline{
+	display: inline-block;
+}
+
+
+.logo{
+	width: 50px;
+}
+
+nav{
+	width: 70%;
+	margin-left:8% ;
+	position: absolute;
+	top: 20px;
+
+
+}
+
+
+.nav-items{
+
+	margin: 0 10% 0 6%;
+}
+
+
+.nav-links{
+	text-decoration: none;
+	color: #A5A5A5;
+	font-size: 13px;
+}
+
+
+#title{
+	background-color: #212121;
+	padding: 0 12%;
+	position: relative;
+	overflow: hidden;
+}
+
+
+
+.btn{
+	width: 200px;
+	height: 50px;
+	border-radius: 10px;
+}
+
+
+
+
+
+
+/*Main Section------------------------------------*/
+
+/*.main{
+	padding:2% 0 20% ;
+	
+}*/
+
+.man-image{
+	width: 55%;
+	position: absolute;
+	right: -5px;
+	bottom: -33px;
+
+}
+
+h1{
+	font-size: 90px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	margin-top:8%;
+	
+}
+
+.join-now-button{
+
+	background-color: #FFC700;
+	border: none;
+	color: #212121;
+	font-size: 24px;
+	font-weight: bolder;
+	margin:2% 0 16%;
+	
+}
+
+
+/*Gym Location*/
+#gym-loc
+{
+	padding:0  12% 10%;
+	text-align: center;
+	background-color: #363636;
+
+}
+
+.location-card{
+	font-size: 0;
+	margin: 4% 0;
+	
+}
+
+.location-image{
+	width: 400px;
+	height: 325px;
+	border-radius: 16px 0 0 16px;
+	overflow: hidden;
+}
+
+.location-image>img{
+	width: auto;
+	height: 100%;
+}
+
+.address-card{
+	width: 250px;
+	height: 325px;
+	background-color: #A0D712;
+	background-image: linear-gradient(90deg ,  #d4d4d4 90% ,#5DC5E3 5%, #226AD5 5%);
+	vertical-align: top;
+	font-size: 15px;
+	border-radius:0 16px  16px 0;
+}
+
+
+.address-holder{
+	box-sizing: border-box;
+	width: 80%;
+	height: 350px;
+	display: inline-block;
+	line-height: 2;
+	color:whitesmoke;
+	padding: 100px 0;
+}
+
+.address-holder>p{
+	color: black;
+	font-weight: bold;
+}
+
+.loc-heading-container{
+	background-color: #ffc700;
+	padding: 10% 0 5%;
+	margin:0 -16% ;
+}
+
+h2{
+	color: #212121;
+	font-size: 38px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+
+}
+
+hr{
+	width: 50%;
+	border: 2px solid #212121;
+	margin: auto;
+	margin-top: 5px;
+}
+
+
+
+
+/*------------------------------------------Plans Section--------------------------------------------------------------*/
+
+#plans{
+	padding: 10% 12%;
+	text-align: center;
+	background-color: #FFC700;
+	
+}
+
+
+.card-container{
+	padding-top: 10%;
+	margin-bottom:10%;
+}
+
+.card{
+	width: 22%;
+	background-color: #212121;
+	display: inline-block;
+	border-radius: 16px;
+	padding: 30px;
+	position: relative;
+	margin-right: 50px;
+	box-shadow: 20px 15px rgba(0,0,0,.5);
+}
+
+.card-icon{
+	color: white;
+	font-size: 50px;
+}
+
+.card-feature{
+	margin-top: 50px;
+	margin-left: 25px;
+}
+
+.card-feature  td
+{
+	line-height: 2;
+	color: white;
+	text-align: left;
+	font-size: 18px;
+	padding-left: 15px;
+}
+
+.check-grey{
+	color: #2A2929;
+	font-size: 20px;
+}
+
+.check-selected{
+	color: #FFC700;
+	font-size: 20px;
+}
+
+
+.join-button{
+	text-decoration: none;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 45px;
+	font-weight: bold;
+	padding: 0 20%;
+}
+
+.card-bottom{
+	margin-top: 60px;
+}
+
+.pricetag{
+	color: #FFC700;
+	font-size: 25px;
+	margin-top: 25px;
+}
+
+
+.second-card-icon{
+	margin: 0 -30px;
+	padding: 5%;
+	background-color: white;
+	position: relative;
+	bottom: 35px;
+	border-radius: 16px 16px 0 0 ;
+}
+
+
+
+
+/*--------------------------------------------------Download-Section--------------------------------------------*/
+
+
+#download-section{
+	text-align: center;
+	padding: 10% 2%;
+	background-image: linear-gradient(to bottom right, #212121 25%, Black);
+
+}
+
+.download-heading{
+	color: #FFC700;
+	line-height: 1.3;
+	font-size: 42px;
+
+}
+
+.download-button{
+	padding: 1% ;
+	text-decoration: none;
+	color: #212121;
+	background-color: whitesmoke;
+	font-weight: bold;
+	font-size: 16px;
+	margin-right: 25px;
+	transition: background-color .8s;
+}
+
+.ios-button{
+	background-color: transparent;
+	border: 2px solid whitesmoke;
+	color: whitesmoke;
+
+
+}
+
+
+.download-button:hover{
+	background-color: #ffc700;
+	color: #212121;
+	border-color: #ffc700;
+	transition: background-color .8s;
+}
+
+
+
+/*Contact Form*/
+
+#contact{
+	text-align: center;
+}
+
+.contact-form{
+	text-align: center;
+}
+
+
